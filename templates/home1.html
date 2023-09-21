@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <style>
+      button {
+        color: white;
+        block-size: 1cm;
+        background-color: blue;
+        border-color: black;
+        border-width: 7px;
+        border-style: double;
+        border-radius: 2px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      fieldset {
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        max-width: 400px;
+        width: 100%;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      fieldset {
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+      }
+      form {
+        margin-bottom: 10px;
+        text-align-last: left;
+
+        button {
+          padding: 10px 20px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: white;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        button:hover {
+          background-color: #0056b3;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-image: -webkit-linear-gradient(cyan, skyblue)">
+    <center>
+      <h2>Review - Recommend System</h2>
+      <fieldset>
+        <form action="/home">
+          <button type="submit">
+            Click Here For Providing Product Feedback
+          </button>
+        </form>
+        <br /><br />
+        <form action="/recommend">
+          <button type="submit">Click Here For Product Recommendations</button>
+        </form>
+        <br /><br />
+        <form action="/assess">
+          <button type="submit">Click Here For Product Assessment</button>
+        </form>
+        <br /><br />
+        <form action="/analyse_feedback">
+          <button type="submit">
+            Click Here For Product Feedback Analysis
+          </button>
+        </form>
+        <br /><br />
+        <form action="http://192.168.20.138:81/stream">
+          <button type="submit">Click Here to view product in shop</button>
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>

@@ -1,2 +1,8 @@
-# Hackathon_project
- Customer review sentiment based product recommendation system
+### Hackathon
+### Customer Review Sentiment Analysis
+### TEXT ANALYSIS
+### NATURAL LANGUAGE PROCESSING
+### FLASK FRAMEWORK
+### WORDCLOUD GENERATION
+### PANDAS 
+### PRODUCT RECOMMENDATION AND ASSESSMENT

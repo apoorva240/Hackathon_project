@@ -1,0 +1,56 @@
+<html>
+    <head>
+    <style>
+    button{
+        color:white;
+        background-color: blue;
+        block-size: 2cm;
+        border-color: black;
+        border-width:7px;
+        border-style: double;
+        border-radius: 2px;
+       }
+       fieldset{
+        block-size: 9cm;
+        width:30%;
+        border-color: black;
+        border-width:7px;
+        border-style: double;
+        border-radius: 2px;
+       }
+       body{
+           background-image: -webkit-linear-gradient(cyan,white);
+           font-family:'Times New Roman';
+           font-weight: bold;
+           font-size: medium;
+       }
+       select{
+       block-size: 3cm;
+        width:30%;
+        border-color: black;
+        border-width:7px;
+        border-style: double;
+        border-radius: 2px;
+       }
+   </style>
+</head>
+<fieldset>
+
+<h3>Product Recommendation</h3>
+    <form action="{{url_for('recommend')}}" method="POST">
+        Chose the product for which you want recommendations for other products
+        <br/>
+        <select name="pid" id="pid">
+            <option value=1>Bose Smart Sound Bar</option>
+            <option value=2>Bose Surround Speakers</option>
+            <option value=3>Bose Flex Bluetooth Speaker</option>
+            <option value=4>Bose Revolve Bluetooth Speaker</option>
+            <option value=5>Bose Bass Module 700</option>
+            <option value=6>Bose Soundbar Module 600</option>
+            <option value=7>Bose TV Speaker with HDMI</option>
+            <option value=8>Bose Soundlink Micro Bluetooth Speaker</option>
+            </select>
+        <button type="submit">View Recommendations</button>
+    </form>
+</fieldset>
+</html>
